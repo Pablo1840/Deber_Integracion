@@ -31,4 +31,8 @@ public class Number {
 	public int substractionNumbers() {
         return this.number1 - this.number2;
     }
+	
+	public int multiplyNumbers() {
+        return this.number1 * this.number2;
+    }
 }

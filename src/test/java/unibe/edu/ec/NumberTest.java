@@ -22,4 +22,9 @@ private Number p1;
 	public void substractionNumbers() {
 		assertEquals(-3, this.p1.substractionNumbers());
 	}
+	
+	@Test
+	public void multiplyNumbers() {
+		assertEquals(70, this.p1.multiplyNumbers());
+	}
 }
