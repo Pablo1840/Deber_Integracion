@@ -18,4 +18,16 @@ private String name;
 	public int countCaracters() {
 		return this.name.length();
 	}
+	
+	public String reversePhrase() {
+		String nameReverese="";
+		for(int i=name.length() - 1;i>=0;i--) {
+			nameReverese = nameReverese + name.charAt(i);
+		}
+		return nameReverese;
+	}
+	
+	public String makecapitalLetters() {
+		return this.name.toUpperCase();
+	}
 }
