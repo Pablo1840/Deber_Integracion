@@ -26,4 +26,8 @@ private String name;
 		}
 		return nameReverese;
 	}
+	
+	public String makecapitalLetters() {
+		return this.name.toUpperCase();
+	}
 }
