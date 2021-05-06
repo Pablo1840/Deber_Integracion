@@ -17,5 +17,10 @@ public class NameTest {
 	public void countCaracters() {
 		assertEquals(13, this.name.countCaracters());
 	}
+	
+	@Test
+	public void reversePhrase() {
+		assertEquals("razalas olbap", this.name.reversePhrase());
+	}
 
 }
