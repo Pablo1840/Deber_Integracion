@@ -17,4 +17,9 @@ private Number p1;
 	public void addNumbers() {
 		assertEquals(17, this.p1.addNumbers());
 	}
+	
+	@Test
+	public void substractionNumbers() {
+		assertEquals(-3, this.p1.substractionNumbers());
+	}
 }
