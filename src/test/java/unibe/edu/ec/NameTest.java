@@ -22,5 +22,10 @@ public class NameTest {
 	public void reversePhrase() {
 		assertEquals("razalas olbap", this.name.reversePhrase());
 	}
+	
+	@Test
+	public void makeCapitalLetters() {
+		assertEquals("PABLO SALAZAR", this.name.makecapitalLetters());
+	}
 
 }
